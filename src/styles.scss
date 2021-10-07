@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import './assets/scss/custom.scss';
+@import "~bootstrap/dist/css/bootstrap.css";
+
+ 
+ @font-face {
+    font-family: "Nunito";
+    src: local("Nunito"), url(./assets/font/Nunito/Nunito-Light.ttf) format("truetype");
+} 
+@font-face {
+  font-family: "Nunito-Bold";
+  src: local("Nunite-Bold"), url(./assets/font/Nunito/Nunito-Bold.ttf) format("truetype");
+} 
+
+ 
+body {
+  font-family: var(--fontFamily-nunito);
+}
+ 
+/* or get specific weights only */
+  
+body {
+  font-family: var(--fontFamily-nunito);
+  font-weight: var(--fontWeight-nunito-regular);
+}
+
